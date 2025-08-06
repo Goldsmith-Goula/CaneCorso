@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Puppies | Paws & Tails</title>
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap5.3.css">
+</head>
+<body>
+    <!-- Navigation (same as index.html) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="landing.html">
+                <i class="fas fa-paw"></i> Paws & Tails
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="landing.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Available.html">Available Puppies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Orders.html">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="testimonials.html">Testimonials</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header py-5 bg-light">
+        <div class="container text-center">
+            <h1 class="display-4">Available Puppies</h1>
+            <p class="lead">Browse our selection of adorable, healthy puppies ready for their forever homes</p>
+        </div>
+    </header>
+
+    <!-- Puppy Filter -->
+    <section class="py-4 bg-white">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-md-3">
+                    <select class="form-select" id="breed-filter">
+                        <option selected class="breed">All Breeds</option>
+                        <option>Cane Corso</option>
+                        <option>American Bully</option>
+                        <option>French-Bulldog Bully</option>
+                        <option>Staffy</option>
+                                                                                    
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <select class="form-select" id="Age-filter">
+                        <option selected>All Ages</option>
+                        <option>8-12 weeks</option>
+                        <option>3-6 months</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <select class="form-select" id="Gen-filter">
+                        <option selected>All Genders</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-primary w-100" id="btn-filter">Filter Puppies</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                
+                <div class="col-lg-4 col-md-4">
+                    <div class="card puppy-card h-100 puppy-item"    data-breed="Cane Corso"
+     data-age="8-12 weeks"
+     data-gender="Male">
+                        <div class="badge bg-success position-absolute top-0 end-0 m-2">Available</div>
+                        <img src="./Corso/Business Suite_creation_1074296697363514.jpeg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Jack</h3>
+                            <p class="text-muted">Cane Corso • Male • 11 weeks</p>
+                            <p class="card-text">Playful and affectionate, Jack has a vey goood temperement good with kids and other pets too, Amazing Silver color.</p>
+                            <ul class="list-unstyled">
+                                <li><strong>Price:</strong> $1,500</li>
+                                <li><strong>Vaccinations:</strong> Up to date</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-white border-0">
+                            <a href="Orders.html" class="btn btn-primary w-100">Adopt Me</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                    <div class="card puppy-card h-100 puppy-item"    data-breed="Cane Corso"
+     data-age="8-12 weeks"
+     data-gender="Male">
+                        <div class="badge bg-success position-absolute top-0 end-0 m-2">Available</div>
+                        <img src="./Corso/Business Suite_creation_855328826572794.jpeg" class="card-img-top" alt="" height="339px" width="200px">
+                        <div class="card-body">
+                            <h3 class="card-title">Rocco</h3>
+                            <p class="text-muted">Cane Corso • Male • 11 weeks</p>
+                            <p class="card-text">Playful and affectionate, Rocco has a vey goood temperement good with kids and other pets too, Amazing Silver color.</p>
+                            <ul class="list-unstyled">
+                                <li><strong>Price:</strong> $1,500</li>
+                                <li><strong>Vaccinations:</strong> Up to date</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-white border-0">
+                            <a href="Orders.html" class="btn btn-primary w-100">Adopt Me</a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-lg-4 col-md-4">
+                    <div class="card puppy-card h-100 puppy-item"    data-breed="Cane Corso"
+     data-age="8-12 weeks"
+     data-gender="Male">
+                        <div class="badge bg-success position-absolute top-0 end-0 m-2">Available</div>
+                        <img src="./Corso/Business Suite_creation_848356240607671.jpeg" class="card-img-top" alt="" height="339px" width="200px">
+                        <div class="card-body">
+                            <h3 class="card-title">Kane</h3>
+                            <p class="text-muted">Cane Corso • Male • 11 weeks</p>
+                            <p class="card-text">Sweet and gentle, Kane has a wonderful temperament and loves to play.</p>
+                            <ul class="list-unstyled">
+                                <li><strong>Price:</strong> $1500</li>                     
+                                <li><strong>Vaccinations:</strong> Up to date</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-white border-0">
+                            <a href="Orders.html" class="btn btn-primary w-100">Adopt Me</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Puppy 3 -->
+                <div class="col-lg-4 col-md-4">
+                    <div class="card puppy-card h-100 puppy-item">
+                        <div class="badge bg-success position-absolute top-0 end-0 m-2">Available</div>
+                        <img src="./Corso/ins_link_CA3PXN1BGax_1.jpg " class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Blake</h3>
+                            <p class="text-muted">Cane Corso • Male • 11 weeks</p>
+                            <p class="card-text">Energetic and curious, Charlie is always ready for an adventure.</p>
+                            <ul class="list-unstyled">
+                                <li><strong>Price:</strong> $1,500</li>
+                                <li><strong>Vaccinations:</strong> Up to date</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-white border-0">
+                            <a href="Orders.html" class="btn btn-primary w-100">Adopt Me</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Puppy 4 -->
+                <div class="col-lg-4 col-md-4">
+                    <div class="card puppy-card h-100 puppy-item">
+                        <div class="badge bg-success position-absolute top-0 end-0 m-2">Available</div>
+                        <img src="./Corso/luna.JPG" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Luna</h3>
+                            <p class="text-muted">Cane Corso • Female • 11 weeks</p>
+                            <p class="card-text">Intelligent and elegant, Daisy is quick to learn and loves attention.</p>
+                            <ul class="list-unstyled">
+                                <li><strong>Price:</strong> $1,800</li>
+                                <li><strong>Location:</strong> Seattle, WA</li>
+                                <li><strong>Vaccinations:</strong> Up to date</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-white border-0">
+                            <button class="btn btn-primary w-100" >Available</button>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-lg-4 col-md-4">
+                    <div class="card puppy-card h-100 puppy-item">
+                        <div class="badge bg-success position-absolute top-0 end-0 m-2">Available</div>
+                        <img src="./Corso/Miya.jpg" class="card-img-top" alt="" height="310px" width="310px">
+                        <div class="card-body">
+                            <h3 class="card-title">Miya</h3>
+                            <p class="text-muted">Cane Corso • Female • 10 weeks</p>
+                            <p class="card-text">Friendly and outgoing, Miya has a great nose and loves to explore.</p>
+                            <ul class="list-unstyled">
+                                <li><strong>Price:</strong> $1800</li>
+                                <li><strong>Location:</strong> Chicago, IL</li>
+                                <li><strong>Vaccinations:</strong> Up to date</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-white border-0">
+                            <a href="Orders.html" class="btn btn-primary w-100">Adopt Me</a>
+                        </div>
+                    </div>
+                </div>
+
+               
+                <div class="col-lg-4 col-md-4">
+                    <div class="card puppy-card h-100 puppy-item">
+                        <div class="badge bg-success position-absolute top-0 end-0 m-2">Available</div>
+                        <img src="./Corso/Lexi.jpg" class="card-img-top" alt="" height="320px" width="320px">
+                        <div class="card-body">
+                            <h3 class="card-title">Lexi</h3>
+                            <p class="text-muted">Cane Corso • Female • 10 weeks</p>
+                            <p class="card-text">Beautiful all black puppy with a playful spirit, Lexi is full of energy.</p>
+                            <ul class="list-unstyled">
+                                <li><strong>Price:</strong> $1,800</li>
+                                <li><strong>Location:</strong> Portland, OR</li>
+                                <li><strong>Vaccinations:</strong> Up to date</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-white border-0">
+                            <a href="Orders.html" class="btn btn-primary w-100">Adopt Me</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                    <div class="card puppy-card h-100 puppy-item">
+                        <div class="badge bg-success position-absolute top-0 end-0 m-2">Available</div>
+                        <img src="./Corso/Lucy.jpg" class="card-img-top" alt="" height="320px" width="320px">
+                        <div class="card-body">
+                            <h3 class="card-title">Lucy</h3>
+                            <p class="text-muted">Cane Corso • Female • 10 weeks</p>
+                            <p class="card-text">Beautiful all black puppy with a playful spirit, Lucy is full of Love.</p>
+                            <ul class="list-unstyled">
+                                <li><strong>Price:</strong> $1,800</li>
+                                <li><strong>Location:</strong> Portland, OR</li>
+                                <li><strong>Vaccinations:</strong> Up to date</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-white border-0">
+                            <a href="Orders.html" class="btn btn-primary w-100">Adopt Me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <nav class="mt-5">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1">Previous</a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5><i class="fas fa-paw"></i> Paws & Tails</h5>
+                    <p>Connecting loving families with their perfect furry companions since 2018.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="puppies.html" class="text-white">Available Puppies</a></li>
+                        <li><a href="order.html" class="text-white">Adoption Process</a></li>
+                        <li><a href="testimonials.html" class="text-white">Customer Stories</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@pawsandtails.com</p>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 Paws & Tails. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            const breedFilter = document.getElementById('breed-filter');
+            const ageFilter = document.getElementById('Age-filter');
+            const genderFilter = document.getElementById('Gen-filter');
+            const filterButton = document.getElementById('btn-filter');
+
+            const puppyItems = document.querySelectorAll('.puppy-item');
+
+            filterButton.addEventListener('click', applyFilters);
+
+             function applyFilters() {
+                const selectedBreed = breedFilter.value;
+                const selectedAge = ageFilter.value;
+                const selectedGender = genderFilter.value;
+
+            puppyItems.forEach(puppy => {
+            // Get puppy data attributes (you need to add these to your HTML)
+            const puppyBreed = puppy.dataset.breed;
+            const puppyAge = puppy.dataset.age;
+            const puppyGender = puppy.dataset.gender;
+            
+            // Check if puppy matches all selected filters
+            const breedMatch = selectedBreed === 'All Breeds' || puppyBreed === selectedBreed;
+            const ageMatch = selectedAge === 'All Ages' || puppyAge === selectedAge;
+            const genderMatch = selectedGender === 'All Genders' || puppyGender === selectedGender;    
+    
+         if (breedMatch && ageMatch && genderMatch) {
+                puppy.style.display = 'block';
+            } else {
+                puppy.style.display = 'none';
+            }
+        });
+    }
+});
+
+          
+    </script>
+
+    <script src="./js/jquery.slim.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
