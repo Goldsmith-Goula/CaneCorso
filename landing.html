@@ -3,29 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Big Paws & Tails - Premium Puppy Adoption</title>
-   <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
-   <link rel="stylesheet" href="./css/bootstrap/bootstrap5.3.css">
-
-    <style>
-
-    @media screen and (max-width: 992px) {
-        
-
-    }
-    .navbar-collapse{
-            padding-right: 30px;
-        }
-
-
-
-        body{
-            background-image: url(./Corso/ins_link_CsNg0dQomwH_1754338764996.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }
-    </style>
+    <title>Paws & Tails - Premium Puppy Adoption</title> 
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
     <!-- Navigation -->
@@ -34,10 +14,10 @@
             <a class="navbar-brand" href="landing.html">
                 <i class="fas fa-paw"></i> Paws & Tails
             </a>
-            <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link active" href="landing.html">Home</a>
@@ -46,7 +26,7 @@
                         <a class="nav-link" href="Available.html">Available Puppies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Orders.html">Order</a>
+                        <a class="nav-link" href="Orders.html">Adoption Info</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="testimonials.html">Testimonials</a>
@@ -57,42 +37,48 @@
     </nav>
 
     <!-- Hero Section -->
-    <header class="hero-section">
-        <div class="container text-center text-white">
-            <h1 class="display-4 fw-bold">Find Your Perfect Puppy Companion</h1>
-            <p class="lead">Healthy, happy puppies from trusted breeders</p>
+    <header class="hero-section text-center text-white d-flex align-items-center justify-content-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Find Your Forever Friend</h1>
+            <p class="lead">Healthy, Happy, and Lovable Puppies from Trusted Breeders</p>
             <a href="Available.html" class="btn btn-primary btn-lg mt-3">View Available Puppies</a>
         </div>
     </header>
 
     
-    <section class="py-5">
+    <section class="py-5 bg-light">
         <div class="container">
-            <div class="row g-4">
+            <div class="row g-4 text-center">
                 <div class="col-md-4">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body text-center">
-                            <i class="fas fa-shield-alt fa-3x text-primary mb-3"></i>
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <div class="card-body">
+                            <div class="feature-icon bg-primary text-white mb-3">
+                                <i class="fas fa-shield-alt fa-2x"></i>
+                            </div>
                             <h3>Health Guarantee</h3>
                             <p>All our puppies come with a 1-year health guarantee and complete veterinary records.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body text-center">
-                            <i class="fas fa-home fa-3x text-primary mb-3"></i>
-                            <h3>Breeder Network</h3>
-                            <p>We work with a network of trusted breeders who prioritize animal welfare.</p>
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <div class="card-body">
+                             <div class="feature-icon bg-primary text-white mb-3">
+                                <i class="fas fa-home fa-2x"></i>
+                            </div>
+                            <h3>Trusted Breeder Network</h3>
+                            <p>We work with a network of vetted breeders who prioritize the well-being of their animals.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body text-center">
-                            <i class="fas fa-truck fa-3x text-primary mb-3"></i>
-                            <h3>Nation wide Delivery</h3>
-                            <p>Safe and comfortable transportation options available nationwide.</p>
+                    <div class="card h-100 border-0 shadow-sm feature-card">
+                        <div class="card-body">
+                             <div class="feature-icon bg-primary text-white mb-3">
+                                <i class="fas fa-truck fa-2x"></i>
+                            </div>
+                            <h3>Nationwide Delivery</h3>
+                            <p>Safe and comfortable transportation options are available to bring your puppy home.</p>
                         </div>
                     </div>
                 </div>
@@ -100,70 +86,57 @@
         </div>
     </section>
 
-    <!-- My Banner -->
-    <section class="bg-primary text-white py-4">
+    <!-- Call to Action Banner -->
+    <section class="bg-primary text-white py-5">
         <div class="container text-center">
-            <h2 class="mb-3">Summer Adoption Special!</h2>
-            <p class="lead">Get 15% off all adoption fees this month + free starter kit with every puppy!</p>
-            <a href="Orders.html" class="btn btn-light btn-lg">Adopt Now</a>
+            <h2 class="h1 mb-3">Summer Adoption Special!</h2>
+            <p class="lead">Get 15% off all adoption fees this month + a free starter kit with every puppy!</p>
+            <a href="Available.html" class="btn btn-light btn-lg mt-3">Adopt Now</a>
         </div>
     </section>
 
     <!-- Popular Breeds -->
-    <section class="py-5 bg-light">
+    <section class="py-5">
         <div class="container">
             <h2 class="text-center mb-5">Our Popular Breeds</h2>
             <div class="row g-4">
                 <div class="col-md-3 col-6">
                     <div class="breed-card text-center">
-                        <img src="./Corso/ins_link_Cq5bKphrQfe_1.jpg" alt="" class="img-fluid rounded-circle mb-3" height="180px" width="180px">
+                        <img src="./Corso/ins_link_Cq5bKphrQfe_1.jpg" alt="Cane Corso" class="img-fluid rounded-circle mb-3 breed-image">
                         <h4>Cane Corso</h4>
                     </div>
                 </div>
                 <div class="col-md-3 col-6">
                     <div class="breed-card text-center">
-                        <img src="./Bully/ins_link_CpAFGY9oyjV_0.jpg" alt="American Bully" class="img-fluid rounded-circle mb-3" height="180px" width="180px">
+                        <img src="./Bully/ins_link_CpAFGY9oyjV_0.jpg" alt="American Bully" class="img-fluid rounded-circle mb-3 breed-image">
                         <h4>American Bully</h4>
                     </div>
                 </div>
                 <div class="col-md-3 col-6">
                     <div class="breed-card text-center">
-                        <img src="./frenchie/sample.jpg" alt="" class="img-fluid rounded-circle mb-3">
-                        <h4>French-Bulldog</h4>
+                        <img src="./frenchie/sample.jpg" alt="French Bulldog" class="img-fluid rounded-circle mb-3 breed-image">
+                        <h4>French Bulldog</h4>
                     </div>
                 </div>
                 <div class="col-md-3 col-6">
                     <div class="breed-card text-center">
-                        <img src="./Staffy/Screenshot_20250805-002514.png" alt="Staffy" class="img-fluid rounded-circle mb-3">
+                        <img src="./Staffy/Screenshot_20250805-002514.png" alt="Staffy" class="img-fluid rounded-circle mb-3 breed-image">
                         <h4>Staffy</h4>
                     </div>
                 </div>
-                
-                </div>
             </div>
         </div>
     </section>
 
-    
-    <section class="py-4">
-        <div class="container text-center">
-            <div class="ad-space p-3 border rounded bg-white">
-                <h4>Sponsored by PetCare Insurance</h4>
-                <p>Get your first month of pet insurance free with any adoption!</p>
-                <a href="#" class="btn btn-sm btn-outline-primary">Learn More</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- My Footer Sec -->
+    <!-- Footer Section -->
     <footer class="bg-dark text-white py-4">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 mb-3 mb-md-0">
                     <h5><i class="fas fa-paw"></i> Paws & Tails</h5>
-                    <p>Connecting loving families with their perfect furry companions since 2018.</p>
+                    <p class="text-white-50">Connecting loving families with their perfect furry companions since 2018.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-3 mb-md-0">
                     <h5>Quick Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="Available.html" class="text-white">Available Puppies</a></li>
@@ -173,18 +146,18 @@
                 </div>
                 <div class="col-md-4">
                     <h5>Contact Us</h5>
-                    <p><i class="fas fa-phone"></i> (404) 939-4134</p>
-                    <p><i class="fas fa-envelope"></i> dscutecanecorsopuppies@gmail.com</p>
+                    <p class="mb-1"><i class="fas fa-phone me-2"></i> (404) 939-4134</p>
+                    <p class="mb-0"><i class="fas fa-envelope me-2"></i> dscutecanecorsopuppies@gmail.com</p>
                 </div>
             </div>
-            <hr>
+            <hr class="my-4">
             <div class="text-center">
-                <p class="mb-0">&copy; 2025 Paws & Tails. All rights reserved.</p>
+                <p class="mb-0 text-white-50">&copy; 2025 Paws & Tails. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <script src="./js/jquery.slim.min.js"></script>
-    <script src="./js/bootstrap.bundle.min.js"></script>
+   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
